@@ -1,0 +1,28 @@
+h1 {
+    color : rgb(75, 17, 168);
+    font-family: cursive;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex; 
+    justify-content: space-between;  
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+.site-description{
+    display:flex;
+    justify-content: first baseline;
+    flex-direction: column;
+}
+
+p, h2 {
+    text-align: center;
+}
